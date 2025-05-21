@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Challenge: Ratios & Percentages</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Math Challenge</h1>
+            <p>Test your skills with math problems</p>
+        </header>
+        
+        <div class="stats">
+            <div>Score: <span id="score">0</span></div>
+            <div>Streak: <span id="streak">0</span></div>
+            <div>Problems: <span id="problems-count">0</span></div>
+        </div>
+        
+        <div id="timer" class="timer">Time remaining: 01:00</div>
+        
+        <div class="problem-container">
+            <div class="problem-type" id="problem-type">Percentage</div>
+            <div class="problem" id="problem-text">Loading problem...</div>
+        </div>
+        
+        <div class="multiple-choice" id="options-container">
+            <!-- Options will be inserted here dynamically -->
+        </div>
+        
+        <div class="feedback" id="feedback"></div>
+        
+        <div class="streak-indicator" id="streak-indicator">Current streak: 0</div>
+        
+        <div style="margin-top: 1.5rem; text-align: center;">
+            <button id="next-btn" class="btn" style="display: none;">Next Problem</button>
+        </div>
+    </div>
+
+    <!-- Include all JavaScript files -->
+    <script src="problem-generator.js"></script>
+    <script src="problem-types.js"></script>
+    <script src="advanced-problems.js"></script>
+    <script src="cryptography-problems.js"></script>
+    <script src="profit-loss-problems.js"></script>
+    <script src="probability-problems.js"></script>
+    <script src="probability-problems-basic.js"></script>
+    <script src="probability-problems-advanced.js"></script>
+    <script src="kinematic-problems.js"></script>
+    <script src="kinematic-problems-advanced.js"></script>
+    <script src="pulley-system-problems.js"></script>
+    <script src="kinematic-problems-main.js"></script>
+    <script src="geometry-problems.js"></script>
+    <script src="geometry-area-perimeter.js"></script>
+    <script src="geometry-volume.js"></script>
+    <script src="bodmas-problems.js"></script>
+    <script src="game.js"></script>
+</body>
+</html>
